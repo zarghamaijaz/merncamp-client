@@ -1,0 +1,25 @@
+.bg-default-image{
+    background-image: url("/images/default.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 150px;
+    text-shadow: 2px 2px 8px #000;
+}
+a{
+    cursor: pointer;
+}
+
+.logo{
+    text-shadow: 2px 2px navy;
+}
+img{
+    max-width: 100%;
+}
+
+.active.active{
+    background-color: navy;
+}
+
+.pointer{
+    cursor: pointer;
+}
