@@ -7,7 +7,7 @@ import Link from "next/link";
 import PostPublic from "../components/cards/PostPublic";
 
 import io from "socket.io-client";
-const socket = io(process.env.NEXT_PUBLIC_SOCKETIO, {path: "/socket.io"}, {reconnection: true});
+const socket = io("https://merncamp-server.vercel.app", {path: "/socket.io"}, {reconnection: true});
 
 const Home = ({ posts }) => {
     const [state, setState] = useContext(UserContext);
